@@ -6,7 +6,6 @@ public class UserInfo {
     private String email;
     private boolean isActive;
 
-    // المُنشئ (constructor) - يُستخدم لإنشاء كائن جديد
     public UserInfo(String name, int age, String email, boolean isActive) {
         this.name = name;
         this.age = age;
@@ -48,7 +47,6 @@ public class UserInfo {
         this.isActive = isActive;
     }
 
-    // عرض المعلومات
     public void displayInfo() {
         System.out.println("---- User Info ----");
         System.out.println("Name     : " + name);
@@ -58,7 +56,7 @@ public class UserInfo {
         System.out.println("-------------------\n");
     }
 
-    // دالة main لاختبار الكلاس
+    // Add main method to test UserInfo with 3 users and update example
     public static void main(String[] args) {
         // إنشاء 3 مستخدمين
         UserInfo user1 = new UserInfo("Anhal", 22, "anhal@example.com", true);
