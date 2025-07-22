@@ -36,7 +36,7 @@ public class GradeManager {
         return failing;
     }
 
-    // Main method for testing
+    // main method for testing
     public static void main(String[] args) {
         String[] students = {"Ahmed Al-Harthy", "Anhal Al-Ruziqiya", "Sara Al-Aghbari", "Mundhir Al-Balushi", "Fatma Al-Anqoudi"};
         int[] scores = {95, 67, 45, 78, 58};
