@@ -1,3 +1,5 @@
+//Initialize project structure with README and .gitignore
+
 public class UserInfo {
 
     //  Add UserInfo class with private fields, constructor, getters and setters
@@ -58,21 +60,18 @@ public class UserInfo {
 
     // Add main method to test UserInfo with 3 users and update example
     public static void main(String[] args) {
-        // إنشاء 3 مستخدمين
+        
         UserInfo user1 = new UserInfo("Anhal", 22, "anhal@example.com", true);
         UserInfo user2 = new UserInfo("Sara", 19, "sara@example.com", false);
         UserInfo user3 = new UserInfo("Yousef", 25, "yousef@example.com", true);
 
-        // عرض معلوماتهم
         user1.displayInfo();
         user2.displayInfo();
         user3.displayInfo();
 
-        // تعديل إيميل أنهل وحالتها
         user1.setEmail("anhal.new@example.com");
         user1.setActive(false);
 
-        // عرض بعد التعديل
         System.out.println("After updating Anhal's info:");
         user1.displayInfo();
     }
