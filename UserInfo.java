@@ -1,6 +1,6 @@
 public class UserInfo {
 
-    // المتغيرات الخاصة بالمستخدم (مخفية باستخدام private)
+    //  Add UserInfo class with private fields, constructor, getters and setters
     private String name;
     private int age;
     private String email;
